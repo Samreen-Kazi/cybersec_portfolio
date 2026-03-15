@@ -1,0 +1,41 @@
+import { motion } from "framer-motion";
+import { Award } from "lucide-react";
+
+const certs = [
+  { name: "OSCP – Offensive Security Certified Professional", issuer: "Offensive Security", year: "2023" },
+  { name: "CEH – Certified Ethical Hacker", issuer: "EC-Council", year: "2022" },
+  { name: "AWS Solutions Architect – Associate", issuer: "Amazon Web Services", year: "2022" },
+  { name: "CompTIA Security+", issuer: "CompTIA", year: "2021" },
+];
+
+const CertificationsSection = () => (
+  <section id="certifications" className="py-20">
+    <div className="container mx-auto px-4">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <h2 className="font-display text-2xl md:text-3xl font-bold mb-2 text-foreground">
+          <span className="text-primary">#</span> Certifications
+        </h2>
+        <div className="w-16 h-0.5 bg-primary mb-8" />
+
+        <div className="grid sm:grid-cols-2 gap-4">
+          {certs.map((c) => (
+            <div key={c.name} className="flex items-start gap-3 p-4 rounded-lg border border-border bg-card">
+              <Award className="w-5 h-5 text-primary mt-0.5 shrink-0" />
+              <div>
+                <h3 className="font-mono text-sm font-semibold text-foreground">{c.name}</h3>
+                <p className="text-xs text-muted-foreground">{c.issuer} · {c.year}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </motion.div>
+    </div>
+  </section>
+);
+
+export default CertificationsSection;
