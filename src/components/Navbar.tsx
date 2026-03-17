@@ -4,11 +4,12 @@ import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
-  { label: "Certifications", href: "#certifications" },
+  { label: "Skills", href: "#skills" },
   { label: "Publications", href: "#publications" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Resume", href: "#resume" },
 ];
 

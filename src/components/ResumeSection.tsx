@@ -21,7 +21,7 @@ const ResumeSection = () => (
         </p>
 
         <a
-          href="#"
+          href="\src\resume\Samreen_Kazi_CV.pdf"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-mono text-sm font-medium hover:opacity-90 transition-opacity box-glow"
         >
           <Download className="w-4 h-4" />

@@ -35,21 +35,14 @@ const AboutSection = () => (
                 <User className="w-4 h-4 text-primary" />
                 <span className="font-mono text-sm text-foreground">Name</span>
               </div>
-              <p className="text-muted-foreground text-sm">John Doe</p>
-            </div>
-            <div className="p-4 rounded-lg border border-border bg-card">
-              <div className="flex items-center gap-3 mb-2">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span className="font-mono text-sm text-foreground">Location</span>
-              </div>
-              <p className="text-muted-foreground text-sm">San Francisco, CA</p>
+              <p className="text-muted-foreground text-sm">Samreen Kazi</p>
             </div>
             <div className="p-4 rounded-lg border border-border bg-card">
               <div className="flex items-center gap-3 mb-2">
                 <Mail className="w-4 h-4 text-primary" />
                 <span className="font-mono text-sm text-foreground">Email</span>
               </div>
-              <p className="text-muted-foreground text-sm">john@example.com</p>
+              <p className="text-muted-foreground text-sm">samreenkazi17@gmail.com</p>
             </div>
           </div>
         </div>

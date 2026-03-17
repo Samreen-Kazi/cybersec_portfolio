@@ -3,17 +3,23 @@ import { GraduationCap } from "lucide-react";
 
 const education = [
   {
-    degree: "M.S. in Cybersecurity",
-    school: "Stanford University",
-    year: "2021 – 2023",
-    description: "Focus on network security, cryptography, and secure software engineering.",
+    degree: "M.S. in Information Technology & Management - GPA: 3.88/4.00",
+    school: "Illinois Institute of Technology",
+    year: "2024 – 2026",
+    description: "Focus on computer security, information security, GRC, computer forensics, network security, and secure software engineering.",
   },
   {
-    degree: "B.S. in Computer Science",
-    school: "UC Berkeley",
-    year: "2017 – 2021",
-    description: "Minor in Mathematics. Dean's List. Research in web application security.",
+    degree: "B.E. in Information Technology - GPA: 9.86/10.00",
+    school: "University of Mumbai",
+    year: "2021 – 2023",
+    description: "Specialized in blockchain, AI, information security, and web development. Ranked 2nd university-wide.",
   },
+    {
+    degree: "Diploma in Information Technology - Grade: 96.50%",
+    school: "Vidyalankar Polytechnic",
+    year: "2017 – 2020",
+    description: "Built foundational skills in programming, networking, databases, and computer systems. Ranked 1st university-wide. ",
+    }
 ];
 
 const EducationSection = () => (
